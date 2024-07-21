@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    margin-top: 100px;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.weather-icon {
+    font-size: 100px;
+    color: #ffd700;
+    padding-bottom: 10px;
+}
+.card-text {
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+.card-text:hover {
+    color: #ffd700;
+}
